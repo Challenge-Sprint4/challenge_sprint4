@@ -32,12 +32,12 @@ function Login() {
 
   const validateLogin = (e) => {
     e.preventDefault();
-    // Restante do código de validação do login...
+    
   };
 
   const validateCadastro = (e) => {
     e.preventDefault();
-    // Restante do código de validação do cadastro...
+    
   };
 
   return (
