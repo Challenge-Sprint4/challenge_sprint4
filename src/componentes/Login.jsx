@@ -14,16 +14,7 @@ function Login() {
   const [rua, setRua] = useState('');
   const [bairro, setBairro] = useState('');
 
-  useEffect(() => {
-    if (cep.length === 8) {
-      $.getJSON(`https://viacep.com.br/ws/${cep}/json/`, function(data) {
-        if (!data.erro) {
-          setRua(data.logradouro);
-          setBairro(data.bairro);
-        }
-      });
-    }
-  }, [cep]);
+
 
   const handleCepChange = (event) => {
     const novoCep = event.target.value.replace(/\D/g, '');
