@@ -58,7 +58,9 @@ function Home() {
                     <li id="liBus">N°: 56</li>
                     <li id="liBus">N°: 973</li>
                     <li id="liBus">N°: 256</li>
-                    
+                    <li id="liBus">N°: 861</li>
+                    <li id="liBus">N°: 465</li>
+                    <li id="liBus">N°: 162</li>
                   </ul>
                 </details>
               </div>
