@@ -1,0 +1,64 @@
+.main-sobre {
+    max-width: 1100px;
+    margin: 20px auto;
+  }
+  
+  .sobre {
+    margin-top: 100px;
+  }
+  .solucao {
+    margin-bottom: 100px;
+  }
+  
+  .sobre, .problema, .missão, .solucao {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .top {
+    margin-bottom: 20px; 
+    font-size: 22px;
+    color: #fff;
+  }
+  
+  .bottom {
+    display: flex;
+    align-items: center; 
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .image {
+    flex: 1; 
+    max-width: 50%; 
+    padding: 0 10px; 
+  }
+  
+  .text {
+    flex: 1; 
+    padding: 0 10px; 
+  }
+  
+  
+  section .text {
+    overflow: hidden;
+  }
+  
+  .sobre, .problema, .solucao, .missão {
+    background: linear-gradient(to right, #7e7d7e94, #060606);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .problema, .solucao, .missão {
+    margin-top: 75px;
+  }
+  
+  .sobre img, .missão img, .problema img, .solucao img {
+    float: left;
+  }
+  
